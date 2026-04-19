@@ -1,1 +1,18 @@
-.
+# Tugas Software Construction - Express API Service
+
+Project ini berisi implementasi sederhana microservices menggunakan Node.js (Express).
+
+Terdiri dari:
+- **Media Service** → untuk upload & ambil gambar
+- **User Service** → untuk CRUD data user
+- **API Gateway** → sebagai penghubung antara client dan service
+
+---
+
+## Cara Menjalankan
+
+Masuk ke masing-masing folder lalu jalankan:
+
+```bash
+npm install
+npx nodemon app.js
